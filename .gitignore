@@ -1,18 +1,50 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
-
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
+# ---------------------------
+# GitHub Pages (Jekyll/Ruby)
+# ---------------------------
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-
-# Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
-
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem 
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# ---------------------------
+# Editores
+# ---------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# Visual Studio (IDE completo) – por si algún día lo usas
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.cache
+*.pdb
+
+# ---------------------------
+# Sistemas operativos
+# ---------------------------
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+Desktop.ini
+# Linux (swap y backups de editores)
+*~
+*.swp
+
+# ---------------------------
+# Dependencias Node (por si añades scripts o un generador)
+# ---------------------------
+node_modules/
+
+# ---------------------------
+# Carpetas de build de otros generadores estáticos
+# ---------------------------
+# Descomenta SOLO la que uses
+# public/
+# dist/
+
