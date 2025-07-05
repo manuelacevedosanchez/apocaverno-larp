@@ -60,6 +60,7 @@ nuevos mundos bajo cualquier circunstancia.
 
 --------------------------------------------------------------------------------
 
-Copyright © 2025 Manuel Acevedo Sánchez – All rights reserved.
+© 2025 Manuel Acevedo Sánchez.  
+Licensed under CC BY-NC-ND 4.0.
 
 Versión 0.1  –  5 jul 2025
